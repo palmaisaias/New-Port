@@ -33,6 +33,18 @@ function Projects() {
       link: 'https://github.com/palmaisaias/Echo.git',
       technologies: ['Vue.js', 'Node.js', 'Python', 'spaCy', 'MySQL', 'Chart.js'],
     },
+    {
+      title: 'Fishing Guide',
+      description: 'Prototype site for Expedition LLC.',
+      link: 'https://reel-fishing-adventures.onrender.com',
+      technologies: ['JavaScript', 'CSS', 'HTML', 'Render', 'Tailwind', 'Headless UI'],
+    },
+    {
+      title: 'sportSHEek',
+      description: 'Prototype site. A no bs blog for the disinterested sports fan.',
+      link: 'https://sportsheek.onrender.com',
+      technologies: ['JavaScript', 'CSS', 'HTML', 'Render', 'Tailwind', 'Headless UI'],
+    },
   ];
 
   return (
