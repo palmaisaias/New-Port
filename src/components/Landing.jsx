@@ -1,4 +1,5 @@
 import React from 'react';
+import isaiasImage from '../assets/images/isaias_image.jpeg';
 
 function Landing() {
   return (
@@ -6,11 +7,18 @@ function Landing() {
       id="landing"
       className="min-h-screen flex flex-col justify-center items-center bg-gradient-animated px-4 animate-fadeIn font-sans relative"
     >
-      <img
-        src="https://media.licdn.com/dms/image/v2/D5603AQHWo0rqTw2yGw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1727907970976?e=1743638400&v=beta&t=45AQwSOb1RAiWv-pRo59-oV2K_-V91eZoOdJgDbXo1w"
-        alt="Portrait of Isaias Palma, Full-Stack Developer"
-        className="w-32 h-32 rounded-full mb-6 animate-spinIn"
-      />
+<img
+  src={isaiasImage}
+  alt="Portrait of Isaias Palma, Full-Stack Developer"
+  className="rounded-full mb-6 animate-spinIn"
+  style={{
+    width: '150px',
+    height: '150px',
+    objectFit: 'cover',
+    aspectRatio: '1 / 1'
+  }}
+/>
+
       <h2 className="text-4xl sm:text-5xl font-semibold mb-4 text-center text-gray-800 transition-all duration-700 ease-in-out animate-slideInUp">
         Hello, I’m Isaias Palma
       </h2>
